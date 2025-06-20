@@ -1,6 +1,6 @@
 {% set python_min = "3.10" %}
 {% set name = "strands-agents-tools" %}
-{% set version = "0.1.5" %}
+{% set version = "0.1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/strands_agents_tools-{{ version }}.tar.gz
-  sha256: ad8d42acbb7cf5c122da3bb09b1a745fa92b61137c0ae79a82db9e3c4ccd6e25
+  sha256: 38ee18604a3475a374f2840827ca276e85826c45f416faac26ccbe41760de326
 
 build:
   noarch: python
@@ -46,7 +46,7 @@ test:
   requires:
     - pip
     - python {{ python_min }}
-    
+
 
 about:
   home: https://strandsagents.com/latest/
