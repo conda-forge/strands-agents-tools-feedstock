@@ -36,8 +36,8 @@ requirements:
     - watchdog >=6.0.0,<7.0.0
     - slack-bolt >=1.23.0,<2.0.0
     - python-tzdata
-    - markdownify
-    - readabilipy
+    - markdownify >=1.0.0,<2.0.0
+    - readabilipy >=0.2.0,<1.0.0
 
 test:
   imports:
