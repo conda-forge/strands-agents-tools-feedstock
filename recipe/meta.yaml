@@ -1,6 +1,6 @@
 {% set python_min = "3.10" %}
 {% set name = "strands-agents-tools" %}
-{% set version = "0.1.9" %}
+{% set version = "0.2.3" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/strands_agents_tools-{{ version }}.tar.gz
-  sha256: ecb08fe4940d20ebc34cd5222b16e16c0ae67e40f902afd87dbb8106fe51a1d3
+  sha256: 14958c73fa3c4b37544ba0c267d49f4faeb1c75ace0bbeacee1ad20db756717e
 
 build:
   noarch: python
@@ -23,7 +23,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - strands-agents >=0.1.0,<1.0.0
+    - strands-agents >=1.0.0,<2.0.0
     - rich >=14.0.0,<15.0.0
     - sympy >=1.12.0,<2.0.0
     - prompt-toolkit <4.0.0,>=3.0.51
@@ -36,6 +36,8 @@ requirements:
     - watchdog >=6.0.0,<7.0.0
     - slack-bolt >=1.23.0,<2.0.0
     - python-tzdata
+    - markdownify >=1.0.0,<2.0.0
+    - readabilipy >=0.2.0,<1.0.0
 
 test:
   imports:
