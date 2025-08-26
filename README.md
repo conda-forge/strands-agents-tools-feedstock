@@ -149,4 +149,5 @@ Feedstock Maintainers
 
 * [@Unshure](https://github.com/Unshure/)
 * [@athkulk](https://github.com/athkulk/)
+* [@yonib05](https://github.com/yonib05/)
 
