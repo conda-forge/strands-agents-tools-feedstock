@@ -148,5 +148,6 @@ Feedstock Maintainers
 
 * [@Unshure](https://github.com/Unshure/)
 * [@athkulk](https://github.com/athkulk/)
+* [@giswqs](https://github.com/giswqs/)
 * [@yonib05](https://github.com/yonib05/)
 
