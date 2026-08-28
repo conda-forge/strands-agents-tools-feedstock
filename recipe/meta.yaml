@@ -1,13 +1,13 @@
 {% set name = "strands-agents-tools" %}
-{% set version = "0.8.6" %}
+{% set version = "0.8.7" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/strands_agents_tools-{{ version }}.tar.gz
-  sha256: 3cdafd706909be6e8cab5411067cdc5af269bec29f1903788629e3f092d9e8aa
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/strands_agents_tools-{{ version }}.tar.gz
+  sha256: b6d3c41da7e001c8ab70a80b71573cef4caf0a687d5c0223d5072f43fd1b251a
 
 build:
   noarch: python
